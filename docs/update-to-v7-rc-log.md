@@ -1,7 +1,9 @@
 ## Background
 
 from v6.1.9 update to next(v7 rc).
- 
+
+This project was created at Dec 31, 2016 and there are 535 commits till now.
+
 ## 17:13 try to update
 
 `ng update @angular/core @angular/cli —next`
@@ -53,7 +55,7 @@ Conclusion: There were no significant changes other than polyfills.
 
 ## Review
 
-There is a code that references the Renderer, but no obsolete hints are found at compile time. It works fine after manual correction.
+There is a code that references the Renderer, but no DEPRECATED hints are found at compile time. It works fine after manual correction.
 
 ## 17:33 Test It
 
